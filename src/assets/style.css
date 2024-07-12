@@ -1,0 +1,174 @@
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "open-sans-bold";
+    font-style: normal;
+    font-weight: 100;
+    src: url("../assets/fonts/Outfit/Outfit-Medium.ttf") format("woff");
+}
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "open-sans";
+    font-style: normal;
+    font-weight: bold;
+    src: url("../assets/fonts/Outfit/Outfit-Regular.ttf") format("woff");
+}
+:root{
+    --blue: #000760;
+    --light-blue: #ECECEC;
+    --light-blue-ii: #F7F8FA;
+}
+.begorah-bg-blue{
+    background-color: var(--blue);
+}
+.begorah-bg-blue-ii{
+    background-color: var(--light-blue) !important;
+}
+.begorah-bg-blue-iii{
+    background-color: var(--light-blue-ii) !important;
+}
+.begorah-text-blue{
+    color: var(--blue);
+}
+.iyd-blue-bg{
+    background-color: var(--dark-blue);
+}
+body{
+    font-family: 'open-sans', sans-serif;
+}
+ul{
+    padding: 0;
+}
+.bold-font{
+    font-family: "open-sans-bold";
+    font-weight: 500;
+}
+.iyd-nav{
+    box-shadow: 0px 2px 4px 0px #D3D3D380;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFF;
+}
+.xui-bg-none{
+  background: none;
+  border: none;
+  outline: none;
+}
+.search-keyword{
+  border: 1.5px solid #D9D9D9
+}
+.contact{
+    padding: .5rem 1.5rem !important;
+    outline: none;
+    border: none;
+}
+.explore-btn{
+    background-color: transparent !important;
+    border: 1px solid var(--blue);
+    color: #000;
+}
+.stat:not(.stat:nth-child(3)){
+    border-right: 1px solid #D3D3D3;
+}
+.grid-card{
+    box-shadow: 0px 1.65px 4.96px 0px #00000040;
+    box-shadow: 0px -1.65px 4.96px 0px #D3D3D380;
+    border-radius: .5rem;
+    transition: .4s ease;
+}
+.grid-card:hover{
+    background-color: var(--blue);
+}
+.grid-card:hover p{
+    color: #FFF !important;
+}
+.grid-card:hover div > span{
+    background-color: #FFF;
+}
+.grid-card:hover div > span svg path{
+    stroke: #000;
+}
+.grid-card:hover svg path{
+    stroke: #FFF;
+}
+
+.learn-more, .learn-more2{
+    text-decoration: none;
+    color: #000;
+    margin-top: 1.5rem;
+    position: relative;
+}
+.learn-more2{
+    color: #FFF;
+}
+.learn-more::before, .learn-more2::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    background-color: #000;
+    height: 1px;
+    width: 40px;
+    bottom: -10px;
+    transition: .3s ease;
+}
+.learn-more2::before{
+    background-color: #FFF;
+}
+.grid-card:hover .learn-more::before{
+    background-color: #FFF;
+}
+.learn-more:hover::before, .learn-more2:hover::before{
+    width: 100%;
+}
+.alternative-nav-color{
+  background-color: var(--light-blue);
+}
+  
+  .iyd-header{
+    background: #F7F8FA;    ;
+    z-index: 2;
+    position: relative;
+    backdrop-filter: blur(2rem);
+  }
+  
+  
+ 
+  .hsd-loader-screen {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: var(--blue-light);
+}
+.hsd-loader-screen .hsd-loader-holder {
+    margin-top: 16px;
+    width: 100%;
+    height: 4px;
+    background-color: hsl(220, 52%, 15%);
+    position: relative;
+    overflow: hidden;
+}
+.hsd-loader-screen .hsd-loader-holder .hsd-loader-anime {
+    width: 72px;
+    height: 100%;
+    background-color: var(--orange);
+    position: absolute;
+    top: 0;
+    animation-name: loader;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: .8s;
+    animation-timing-function: linear;
+}
+@keyframes loader {
+    from {
+        left: -72px;
+    }
+    to {
+        left: 200px;
+    }
+}
