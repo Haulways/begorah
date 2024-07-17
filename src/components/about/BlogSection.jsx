@@ -65,7 +65,7 @@ const BlogSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className='xui-lg-col-8 xui-col-12 xui-pl-2'>
+                <div className='xui-lg-col-8 xui-col-12 xui-lg-pl-2 xui-pl-none'>
                     {blogPosts.map((post, index) => (
                         <BlogPost 
                             key={index}

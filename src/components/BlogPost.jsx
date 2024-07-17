@@ -9,9 +9,9 @@ const BlogPost = ({ image, title, text }) => {
 
     const maxLength = 150;
     return (
-        <div className='xui-d-flex xui-flex-ai-center xui-mb-1-half'>
-            <img className='xui-img-150' src={image} alt="" />
-            <div className='xui-pl-1' style={{"width": "calc(100% - 150px)"}}>
+        <div className='xui-d-flex xui-flex-ai-center xui-mb-1-half xui-lg-flex-dir-row xui-flex-dir-column xui-lg-mt-none xui-mt-2'>
+            <img className='xui-lg-img-150 xui-w-fluid-100' src={image} alt="" />
+            <div className='xui-lg-pl-1 xui-pl-none xui-lg-py-none xui-py-1 calc-width'>
                 <h3 className='xui-font-sz-120 bold-font xui-font-w-500 begorah-text-blue xui-lg-w-fluid-90 xui-w-fluid-100'>{title}</h3>
                 <p className='xui-font-sz-90 xui-opacity-6 xui-line-height-1-half'>
                     {isExpanded ? text : `${text.slice(0, maxLength)}...`}

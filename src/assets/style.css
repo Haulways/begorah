@@ -193,3 +193,11 @@ ul{
         left: 200px;
     }
 }
+.calc-width{
+    width: calc(100% - 150px);
+}
+@media screen and (max-width: 768px) {
+    .calc-width{
+        width: 100%;
+    }
+}
