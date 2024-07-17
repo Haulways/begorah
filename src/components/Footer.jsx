@@ -68,7 +68,7 @@ export default function Footer(){
                     </div>
                     
                 </div>
-                <p className="xui-mt-2-half xui-font-sz-90 xui-text-center begorah-text-blue">BEGORAH LTD - 1275605</p>
+                <p className="xui-mt-2-half xui-font-sz-90 xui-text-center begorah-text-blue">BEGORAH LTD - RC- UK 12756052</p>
             </section>
     
         </>

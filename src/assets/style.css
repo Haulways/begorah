@@ -16,11 +16,15 @@
 }
 :root{
     --blue: #000760;
-    --light-blue: #ECECEC;
+    --dark-blue: #0A0F50;
+    --light-blue: #CCCFEF;
     --light-blue-ii: #F7F8FA;
 }
 .begorah-bg-blue{
     background-color: var(--blue);
+}
+.begorah-dark-blue{
+    background-color: var(--dark-blue);
 }
 .begorah-bg-blue-ii{
     background-color: var(--light-blue) !important;
@@ -30,6 +34,9 @@
 }
 .begorah-text-blue{
     color: var(--blue);
+}
+.begorah-text-dark-blue{
+    color: var(--dark-blue);
 }
 .iyd-blue-bg{
     background-color: var(--dark-blue);
@@ -122,8 +129,22 @@ ul{
 .learn-more:hover::before, .learn-more2:hover::before{
     width: 100%;
 }
-.alternative-nav-color{
-  background-color: var(--light-blue);
+.principle span{
+    position: relative;
+    display: block;
+}
+.principle span::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    background-color: #737373;
+    height: 1px;
+    width: 40px;
+    bottom: -8px;
+    transition: .3s ease;
+}
+.principle:hover span::before{
+    width: 100%;
 }
   
   .iyd-header{
