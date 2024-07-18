@@ -11,7 +11,7 @@ export default function Footer(){
             <section id="contact" className="xui-pt-3 xui-pb-5 xui-container begorah-bg-blue-iii xui-text-black footer">
                 <div className='xui-d-grid xui-lg-grid-col-4 xui-grid-col-1 xui-grid-col-1 xui-lg-grid-gap-1 xui-grid-gap-2 xui-mt-3'>
                     <div>
-                        <img className="xui-mt-1 xui-img-120" src={Logo} alt="" />
+                        <img className="xui-img-120" src={Logo} alt="" />
                         <p className='xui-font-sz-90 xui-opacity-8 xui-mt-1 xui-line-height-1-half'>Begorah Ltd is a leading e-learning content design company dedicated to creating engaging, interactive, and effective online educational materials.</p>
                         <div className="xui-mt-1 xui-d-flex xui-flex-ai-center xui-grid-gap-1">
                             <Link to='https://x.com/BegorahLTD' target="_blank">
