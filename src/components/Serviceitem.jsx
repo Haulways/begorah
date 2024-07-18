@@ -15,7 +15,7 @@ const Serviceitem = ({ data }) => {
             <hr className='xui-bdr-w-1 xui-bdr-style-solid'/>
             <div className='xui-d-grid xui-lg-grid-col-2 xui-grid-col-1 xui-py-1 xui-cursor-pointer' key={index} onClick={() => toggleItem(index)}>
                 <div>
-                    <h3 className='xui-font-w-500 xui-lg-font-sz-220 xui-font-sz-120 xui-m-none'>{item.question}</h3>
+                    <h3 className='xui-font-w-500 xui-lg-font-sz-180 xui-font-sz-120 xui-m-none'>{item.question}</h3>
                 </div>
                 <div className='xui-d-flex xui-flex-ai-center'>
                     <div style={{"width": "calc(100% - 50px)"}}>

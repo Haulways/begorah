@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Loader from "./components/Loader";
 import Navbar from './components/Navbar';
 import About from './page/About';
+import PrivacyPolicy from './page/PrivacyPolicy';
 
 const Home = lazy(() => import('./page/Home'));
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
+          <Route path='/privacy/policy' element={<PrivacyPolicy />} />
           <Route path='*' element={<h1>No Match</h1>} />
         </Routes>
       </Suspense>

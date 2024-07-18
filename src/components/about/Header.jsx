@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 export default function Header(){
     return(
         <>
-            <section className="iyd-header xui-pt-8 xui-pb-2">
+            <section id="about" className="iyd-header xui-pt-8 xui-pb-2">
                 <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse xui-container">
                     <div className="xui-lg-col-7 xui-col-12">
                         <h1 className="xui-lg-font-sz-350 xui-font-sz-250 bold-font xui-lg-w-fluid-85 xui-w-fluid-100">At Begorah, we believe in the transformative power of learning.</h1>
@@ -26,7 +26,7 @@ export default function Header(){
                         </div>
                     </div>
                     <div className="xui-lg-col-5 xui-col-12 xui-lg-mb-none xui-mb-1-half xui-lg-pl-1-half xui-pl-none">
-                        <div className="xui-pos-relative xui-z-index-1">
+                        <div className="xui-pos-relative xui-z-index-1 xui-max-w-400 xui-w-fluid-100 xui-ml-auto">
                             <img className="xui-w-fluid-100" src={AboutHeaderImage} alt="" />
                             <span className="xui-d-inline-block xui-z-index--1 xui-pos-absolute" style={{"left": "-18px", "bottom": "-9px"}}>
                                 <svg width="130" height="130" viewBox="0 0 156 157" fill="none" xmlns="http://www.w3.org/2000/svg">
