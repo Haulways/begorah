@@ -7,7 +7,7 @@ export default function Header(){
             <section className="iyd-header xui-pt-8 xui-pb-2">
                 <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse xui-container">
                     <div className="xui-lg-col-7 xui-col-12">
-                        <h1 className="xui-lg-font-sz-350 xui-font-sz-250 bold-font">Unlock the Potential of E-Learning with <span className="begorah-text-blue">Begorah</span></h1>
+                        <h1 className="xui-lg-font-sz-350 xui-font-sz-220 bold-font">Unlock the Potential of e-learning with <span className="begorah-text-blue">Begorah</span></h1>
                         <p className="xui-opacity-8 xui-lg-w-fluid-80 xui-w-fluid-100 xui-line-height-1-half xui-font-sz-90 xui-mt-half">Engage, Educate, Empower with Begorah Ltd. Our innovative e-learning design transforms traditional education, making learning more accessible and effective for everyone.</p>
                         <div className="xui-mt-1 xui-d-flex xui-flex-ai-center">
                             <LinkButton text="Explore Our Services" route="/" customClass="xui-btn xui-bdr-rad-half" />

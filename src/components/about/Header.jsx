@@ -8,9 +8,9 @@ export default function Header(){
             <section id="about" className="iyd-header xui-pt-8 xui-pb-2">
                 <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse xui-container">
                     <div className="xui-lg-col-7 xui-col-12">
-                        <h1 className="xui-lg-font-sz-350 xui-font-sz-250 bold-font xui-lg-w-fluid-85 xui-w-fluid-100">At Begorah, we believe in the transformative power of learning.</h1>
+                        <h1 className="xui-lg-font-sz-350 xui-font-sz-220 bold-font xui-lg-w-fluid-85 xui-w-fluid-100">At Begorah, we believe in the transformative power of learning.</h1>
                         <LinkButton text="Learn More" route="/" customClass="xui-btn xui-px-3 xui-bdr-rad-half xui-mt-1" />
-                        <div className="xui-d-flex xui-flex-ai-center xui-mt-1-half">
+                        <div className="xui-d-flex xui-flex-ai-center xui-mt-1-half xui-lg-grid-gap-none xui-grid-gap-1">
                             <div className="stat xui-px-1-half">
                                 <h3 className="xui-font-sz-150 bold-font xui-font-w-bold"><CountUp start={0} end={4} duration={2} />y+</h3>
                                 <p className="xui-font-sz-85 xui-mt-half xui-opacity-6">In Edu-Tech industry</p>
@@ -20,7 +20,7 @@ export default function Header(){
                                 <p className="xui-font-sz-85 xui-mt-half xui-opacity-6">School collaboration</p>
                             </div>
                             <div className="stat xui-px-1-half">
-                                <h3 className="xui-font-sz-150 bold-font xui-font-w-bold"><CountUp start={0} end={100} duration={2} />y+</h3>
+                                <h3 className="xui-font-sz-150 bold-font xui-font-w-bold"><CountUp start={0} end={100} duration={2} />+</h3>
                                 <p className="xui-font-sz-85 xui-mt-half xui-opacity-6">Educators</p>
                             </div>
                         </div>

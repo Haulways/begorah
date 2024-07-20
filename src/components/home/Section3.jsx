@@ -6,7 +6,7 @@ export default function Section3(){
     return(
         <>
             <section className="xui-pt-5 xui-pb-2 xui-container">
-                <h1 className="xui-lg-font-sz-300 xui-font-sz-200 xui-lg-w-fluid-60 xui-w-fluid-100 bold-font">Empowering Learning with Innovative E-Learning Solutions</h1>
+                <h1 className="xui-lg-font-sz-300 xui-font-sz-160 xui-lg-w-fluid-60 xui-w-fluid-100 bold-font">Empowering Learning with Innovative e-learning Solutions</h1>
                 <div className="xui-row xui-mt-2-half">
                     <div className="xui-bdr-rad-half xui-lg-col-4 xui-col-12 xui-d-flex xui-flex-dir-column xui-flex-jc-space-between begorah-bg-blue xui-text-white xui-pt-1 xui-px-1 xui-pb-2">
                         <p className="xui-font-sz-120 xui-mt-1 xui-font-w-500">Mission Statement</p>

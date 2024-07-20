@@ -13,13 +13,13 @@ const Serviceitem = ({ data }) => {
       {data.map((item, index) => (
         <div className='xui-my-1'>
             <hr className='xui-bdr-w-1 xui-bdr-style-solid'/>
-            <div className='xui-d-grid xui-lg-grid-col-2 xui-grid-col-1 xui-py-1 xui-cursor-pointer' key={index} onClick={() => toggleItem(index)}>
+            <div className='xui-d-grid xui-lg-grid-col-2 xui-grid-col-1 xui-py-1 xui-flex-ai-center xui-cursor-pointer' key={index} onClick={() => toggleItem(index)}>
                 <div>
-                    <h3 className='xui-font-w-500 xui-lg-font-sz-180 xui-font-sz-120 xui-m-none'>{item.question}</h3>
+                    <h3 className='xui-font-w-500 xui-font-w-500 xui-lg-font-sz-120 xui-font-sz-100 bold-font xui-m-none'>{item.question}</h3>
                 </div>
-                <div className='xui-d-flex xui-flex-ai-center'>
+                <div className='xui-d-flex xui-flex-ai-center xui-lg-mt-none xui-mt-1'>
                     <div style={{"width": "calc(100% - 50px)"}}>
-                        <h3 className='xui-font-sz-120 xui-lg-d-block xui-d-none'>{item.heading}</h3>
+                        <h3 className='xui-lg-font-sz-100 xui-font-sz-90'>{item.heading}</h3>
                     </div>
                     <div className='xui-w-50 xui-h-50 xui-d-flex xui-flex-jc-center xui-flex-ai-center'>
                         {activeIndex !== index &&

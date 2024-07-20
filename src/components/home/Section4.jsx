@@ -11,9 +11,9 @@ export default function Section4(){
         <>
             <section className="xui-pt-5 xui-pb-2 xui-container">
                 <div>
-                    <h1 className="xui-lg-font-sz-300 xui-font-sz-200 xui-lg-w-fluid-60 xui-w-fluid-100 bold-font"><span className="xui-text-fade">Discover</span> firsthand</h1>
-                    <h1 className="xui-lg-font-sz-300 xui-font-sz-200 xui-lg-w-fluid-60 xui-w-fluid-100 bold-font xui-text-fade">the transformative</h1>
-                    <h1 className="xui-lg-font-sz-300 xui-lg-ml-6 xui-ml-2 xui-font-sz-200 xui-lg-w-fluid-60 bold-font">Impact of <span className="xui-text-fade xui-d-inline-flex xui-flex-ai-flex-start">Begorah <img className="xui-img-35" src={Asterics} alt="" /></span></h1>
+                    <h1 className="xui-lg-font-sz-300 xui-font-sz-180 xui-lg-w-fluid-60 xui-w-fluid-100 bold-font"><span className="xui-text-fade">Discover</span> firsthand</h1>
+                    <h1 className="xui-lg-font-sz-300 xui-font-sz-180 xui-lg-w-fluid-60 xui-w-fluid-100 bold-font xui-text-fade">the transformative</h1>
+                    <h1 className="xui-lg-font-sz-300 xui-lg-ml-6 xui-ml-2 xui-font-sz-180 xui-lg-w-fluid-60 bold-font">Impact of <span className="xui-text-fade xui-d-inline-flex xui-flex-ai-flex-start">Begorah <img className="xui-img-35" src={Asterics} alt="" /></span></h1>
                 </div>
                 <div className="xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-3 xui-mt-2">
                     <div>

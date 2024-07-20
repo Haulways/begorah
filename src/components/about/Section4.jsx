@@ -4,7 +4,7 @@ export default function Section4(){
     return(
         <>
             <section className="xui-pt-5 xui-pb-2 xui-container">
-                <h1 className="xui-lg-font-sz-300 xui-font-sz-200 xui-lg-w-fluid-70 xui-w-fluid-100 bold-font">Access cutting-edge technology with proven instructional design principles</h1>
+                <h1 className="xui-lg-font-sz-300 xui-font-sz-180 xui-lg-w-fluid-70 xui-w-fluid-100 bold-font">Access cutting-edge technology with proven instructional design principles</h1>
                 <div className="xui-mt-2-half xui-d-flex xui-flex-dir-column xui-flex-jc-space-between xui-p-2 xui-text-white xui-h-450 xui-bdr-rad-3" style={{"backgroundImage": `url('${Section4Image1}')`}}>
                     <h3 className="xui-font-sz-120 xui-font-w-bold">Watch Video</h3>
                     <div className="xui-d-flex xui-flex-ai-center xui-flex-jc-space-between">
