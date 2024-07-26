@@ -15,7 +15,7 @@ const Serviceitem = ({ data }) => {
             <hr className='xui-bdr-w-1 xui-bdr-style-solid'/>
             <div className='xui-d-grid xui-lg-grid-col-2 xui-grid-col-1 xui-py-1 xui-flex-ai-center xui-cursor-pointer' key={index} onClick={() => toggleItem(index)}>
                 <div>
-                    <h3 className='xui-font-w-500 xui-font-w-500 xui-lg-font-sz-120 xui-font-sz-100 bold-font xui-m-none'>{item.question}</h3>
+                    <h3 className='xui-font-w-500 xui-font-w-500 xui-lg-font-sz-150 xui-font-sz-100 bold-font xui-m-none'>{item.question}</h3>
                 </div>
                 <div className='xui-d-flex xui-flex-ai-center xui-lg-mt-none xui-mt-1'>
                     <div style={{"width": "calc(100% - 50px)"}}>
@@ -35,11 +35,11 @@ const Serviceitem = ({ data }) => {
             </div>
             {activeIndex === index &&
                 <div className='xui-d-grid xui-lg-grid-col-2 xui-grid-col-1'>
-                    <div className='xui-d-flex xui-flex-ai-flex-end xui-lg-pl-5 xui-pl-none'>
-                        <p className='xui-opacity-6 xui-lg-font-sz-90 xui-font-sz-75 xui-w-fluid-100 xui-lg-w-fluid-90 xui-line-height-1-half'>{item.paragraph}</p>
-                    </div>
                     <div>
-                        <img className='xui-mt-2 xui-w-fluid-100' src={item.image} alt="" />
+                        <img className='xui-mt-2 xui-lg-w-fluid-75 xui-w-fluid-100' src={item.image} alt="" />
+                    </div>
+                    <div className=''>
+                        <p className='xui-opacity-6 xui-lg-font-sz-90 xui-font-sz-75 xui-w-fluid-100 xui-lg-w-fluid-90 xui-line-height-1-half'>{item.paragraph}</p>
                     </div>
                 </div>
             }

@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unknown-property */
-import { useEffect, useState } from 'react';
-import { useLocation, NavLink } from 'react-router-dom';
-import Logo from "../assets/images/logo.png";
+import { NavLink } from 'react-router-dom';
+import Logo from "../assets/images/logo.svg";
 import LinkButton from './LinkButton';
 
 const Navbar = () => {
@@ -31,20 +30,20 @@ const Navbar = () => {
                     {/* <span className="xui-ml-half xui-d-inline-block xui-font-1 xui-font-w-bold">Kathy</span> */}
                 </NavLink>
             </div>
-            <div className="links" placed="left">
+            <div className="links" placed="center">
                 <div className="main dark-color primary xui-bg-white">
-                    <ul>
+                    <ul className='xui-grid-gap-2'>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"/"}>Home</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 bold-font-2 begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"/"}>Home</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"about"}>About us</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 bold-font-2 begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"about"}>About us</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"courses"}>Courses</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 bold-font-2 begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"industries"}>Industries</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"portfolio"}>Portfolio</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 bold-font-2 begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"portfolio"}>Portfolio</NavLink>
                         </li>
                      
                     </ul>
@@ -52,8 +51,8 @@ const Navbar = () => {
                 <div className="fixed xui-lg-d-block xui-md-d-block xui-d-none">
                     <ul>
                         <li>
-                            <LinkButton text="Sign up" route="/" customClass="contact xui-bg-none xui-bdr-rad-3" customStyle={{"backgroundColor": "#FFF", "color": "#000"}} />
-                            <LinkButton text="Login" route="/" customClass="contact xui-bdr-rad-3 xui-ml-1" />
+                            {/* <LinkButton text="Sign up" route="/" customClass="contact xui-bg-none xui-bdr-rad-3" customStyle={{"backgroundColor": "#FFF", "color": "#000"}} /> */}
+                            <LinkButton text="Contact us" route="/" customClass="contact xui-bdr-rad-3 xui-ml-1" />
                         </li>
                     </ul>
                 </div>

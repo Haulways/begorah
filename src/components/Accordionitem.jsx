@@ -25,7 +25,7 @@ const Accordionitem = ({ data }) => {
           </div>
           {activeIndex === index &&
            <div className='xui-px-1 xui-pb-1 begorah-bg-blue-iii xui-pos-relative'>
-              <p className='xui-opacity-6 xui-lg-font-sz-90 xui-font-sz-75 xui-w-fluid-100 xui-lg-w-fluid-90 xui-line-height-1-half'>{item.answer}</p>
+              <p className='xui-opacity-6 xui-lg-font-sz-80 xui-font-sz-75 xui-w-fluid-100 xui-lg-w-fluid-90 xui-line-height-1-half'>{item.answer}</p>
            </div>
            }
         </div>

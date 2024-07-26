@@ -5,13 +5,13 @@ import PrivacyImage from "../assets/images/privacy-image.png";
 export default function PrivacyPolicy(){
     return(
         <>
-            <section className="xui-pt-7 xui-pb-8 amd-light-grey-bg xui-container" id="privacy-policy">
+            <section className="xui-pt-7 xui-pb-3 amd-light-grey-bg xui-container" id="privacy-policy">
                 <div className="xui-d-flex xui-flex-ai-center xui-lg-flex-dir-row xui-flex-dir-column-reverse">
                     <div className="xui-lg-col-7 xui-col-12">
                         <h1 className="xui-lg-font-sz-300 xui-font-sz-180 xui-lg-w-fluid-80 xui-w-fluid-100 bold-font xui-font-w-600 ">Privacy Policy</h1>
-                        <p className="xui-font-sz-90 xui-lg-w-fluid-90 xui-w-fluid-100 xui-line-height-1-half xui-opacity-8 xui-mt-half">Begorah Ltd ("we", "us", "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [begorah.co.uk], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the "Site"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.</p>
+                        <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">Begorah Ltd ("we", "us", "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website [begorah.co.uk], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the "Site"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.</p>
                     </div>
-                    <div className="xui-lg-col-5 xui-col-12">
+                    <div className="xui-lg-col-5 xui-col-12 xui-lg-pl-1-half xui-pl-none">
                         <img className="xui-img-500" src={PrivacyImage} alt="" />
                     </div>
                 </div>
@@ -29,7 +29,7 @@ export default function PrivacyPolicy(){
                         <h3 className="xui-font-sz-150  xui-mt-half">Information We Collect</h3>
                         <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">We may collect information about you in a variety of ways. The information we may collect on the Site includes:</p>
                         <h3 className="xui-font-sz-120  xui-mt-half">Personal Data:</h3>
-                        <ul>
+                        <ul className="xui-pl-1">
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">Name</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">Email address</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">Phone number</li> 
@@ -39,7 +39,7 @@ export default function PrivacyPolicy(){
                         </ul>
 
                         <h3 className="xui-font-sz-120  xui-mt-2">Non-Personal Data:</h3>
-                        <ul>
+                        <ul className="xui-pl-1">
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">Browser type</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">Demographic information such as age, gender, interests</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">IP address</li> 
@@ -50,7 +50,7 @@ export default function PrivacyPolicy(){
                         <p className="xui-font-sz-90 xui-opacity-6">02)</p>
                         <h3 className="xui-font-sz-150  xui-mt-half">How We Use Your Information</h3>
                         <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">We use the information we collect in the following ways:</p>
-                        <ul>
+                        <ul className="xui-pl-1">
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">To operate, maintain, and improve our Site and services</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">To respond to your inquiries and fulfill your requests</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">To send you marketing and promotional communications (you may opt-out at any time)</li> 
@@ -63,7 +63,7 @@ export default function PrivacyPolicy(){
                         <p className="xui-font-sz-90 xui-opacity-6">03)</p>
                         <h3 className="xui-font-sz-150  xui-mt-half">Sharing Your Information</h3>
                         <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">We may share your information with third parties only in the ways that are described in this Privacy Policy:</p>
-                        <ul>
+                        <ul className="xui-pl-1">
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">With service providers who assist us in operating our website and services</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">With our business partners for marketing and promotional purposes</li> 
                             <li className="xui-mt-1 xui-font-sz-90 xui-opacity-8">With law enforcement or regulatory agencies as required by law</li> 
@@ -79,11 +79,16 @@ export default function PrivacyPolicy(){
                         <h3 className="xui-font-sz-150  xui-mt-half">Your Choices Regarding Your Information</h3>
                         <p className="xui-font-sz-90 xui-line-height-1-half xui-opacity-8 xui-mt-half">You have several choices regarding the use of information on our Site:</p>
 
-                        <h3 className="xui-font-sz-120  xui-mt-2">Opt-Out:</h3>
-                        <p className="xui-mt-1 xui-font-sz-90 xui-opacity-8">You may opt-out of receiving promotional communications from us by following the instructions in those communications or by contacting us directly.</p> 
+                        <div className="xui-d-inline-flex xui-lg-flex-dir-row xui-flex-dir-column xui-lg-flex-ai-center xui-mt-1">
+                            <h3 className="xui-font-sz-120">Opt-Out:</h3>
+                            <p className="xui-font-sz-90 xui-opacity-8 xui-lg-ml-1 xui-ml-none xui-line-height-1-half">You may opt-out of receiving promotional communications from us by following the instructions in those communications or by contacting us directly.</p> 
+                        </div>
+
+                        <div className="xui-d-inline-flex xui-lg-flex-dir-row xui-flex-dir-column xui-lg-flex-ai-center xui-mt-1">
+                            <h3 className="xui-font-sz-120">Cookies:</h3>
+                            <p className="xui-font-sz-90 xui-opacity-8 xui-lg-ml-1 xui-ml-none xui-line-height-1-half">You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies. If you disable or refuse cookies, please note that some parts of this website may become inaccessible or not function properly.</p> 
+                        </div>
                         
-                        <h3 className="xui-font-sz-120  xui-mt-2">Cookies:</h3>
-                        <p className="xui-mt-1 xui-font-sz-90 xui-opacity-8 xui-line-height-1-half">You can set your browser to refuse all or some browser cookies, or to alert you when websites set or access cookies. If you disable or refuse cookies, please note that some parts of this website may become inaccessible or not function properly.</p> 
                     </div>
                     <div>
                         <p className="xui-font-sz-90 xui-opacity-6">06)</p>

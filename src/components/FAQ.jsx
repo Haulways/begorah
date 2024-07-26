@@ -38,8 +38,7 @@ const FAQ = () => {
 
     return (
         <>
-        <section className="xui-py-3 xui-container xui-overflow-y-hidden xui-bg-white xui-max-w-950 xui-w-fluid-100 xui-mx-auto">
-            <p className="xui-font-sz-90 amd-text-green-light xui-text-center">FAQs</p>
+        <section className="xui-py-3 xui-container xui-overflow-y-hidden xui-bg-white">
             <h3 className="xui-lg-font-sz-250 xui-font-sz-200 xui-mt-1 xui-text-center bold-font xui-font-w-500">Frequently Asked Questions</h3>
             <Accordionitem data={faqData}/>
         </section>

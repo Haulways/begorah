@@ -1,5 +1,4 @@
 import SectionDuplicate from "../SectionDuplicate";
-import Section2Image from "../../assets/images/section2-image.png";
 import { Link } from "react-router-dom";
 import Services from "../Services";
 
@@ -18,7 +17,7 @@ export default function Section2(){
                     </div>
                 </div> */}
             <section className="xui-pt-5 xui-pb-2 xui-container">
-                <SectionDuplicate mainHeading="Explore the diverse range of services we provide" paragraphHeading="Discover the diverse range of services we offer, tailored to meet your unique e-learning needs and elevate your educational experience.">
+                <SectionDuplicate mainHeading="OUR SERVICES" paragraphHeading="Discover the diverse range of services we offer, tailored to meet your unique e-learning needs and elevate your educational experience.">
                     <Services />
                 </SectionDuplicate>
 

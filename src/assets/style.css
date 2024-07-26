@@ -17,7 +17,7 @@
 :root{
     --blue: #000760;
     --dark-blue: #0A0F50;
-    --light-blue: #CCCFEF;
+    --light-blue: #ECECEC;;
     --light-blue-ii: #F7F8FA;
 }
 .begorah-bg-blue{
@@ -50,6 +50,10 @@ ul{
 .bold-font{
     font-family: "open-sans-bold";
     font-weight: 500;
+}
+.bold-font-2{
+    font-family: "open-sans-bold";
+    font-weight: 600;
 }
 .iyd-nav{
     box-shadow: 0px 2px 4px 0px #D3D3D380;
@@ -87,6 +91,7 @@ ul{
 }
 .grid-card:hover{
     background-color: var(--blue);
+    color: #fff;
 }
 .grid-card:hover p{
     color: #FFF !important;
@@ -97,7 +102,7 @@ ul{
 .grid-card:hover div > span svg path{
     stroke: #000;
 }
-.grid-card:hover svg path{
+.grid-card:hover > div svg path{
     stroke: #FFF;
 }
 
@@ -193,11 +198,137 @@ ul{
         left: 200px;
     }
 }
+.bizr-waitlist-wrapper{
+    display: -webkit-inline-box;
+    grid-gap: 1rem;
+}
+.bizr-waitlist-scroller {
+    width: 100%;
+    overflow: hidden;
+}
+.bizr-waitlist-scroll-item{
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    background: #FFF;
+    box-shadow: 0px -1.999px 3.998px 0px rgba(211, 211, 211, 0.50), 0px 1.999px 3.998px 0px rgba(0, 0, 0, 0.15);
+}
+.animate1{
+    animation: swipeforward var(--speed) linear infinite backwards;
+}
+.animate2{
+    animation: swipe var(--speed) linear infinite backwards;
+}
+.bizr-waitlist-scroll-section {
+    /* display: flex; */
+    /* animation: swipe var(--speed) linear infinite backwards; */
+    width: 100%;
+    /* grid-gap: var(--baseline-grid-v); */
+}
+  
+@keyframes swipeforward {
+    0% {
+      transform: translate(-100%);
+    }
+  
+    100% {
+      transform: translate(0);
+    }
+}
+@keyframes swipe {
+    0% {
+      transform: translate(0);
+    }
+  
+    100% {
+      transform: translate(-100%);
+    }
+}
+.mySwiper{
+    overflow-x: hidden !important;
+    overflow-y: initial !important;
+    /* height: 600px; */
+    padding: 6rem 0 !important;
+}
+.mySwiper .swiper-pagination{
+    position: absolute;
+    top: 14px !important;
+    right: 120px !important;
+    left: auto;
+    width: 100px;
+    height: fit-content;
+}
+.mySwiper .swiper-button-next, .mySwiper .swiper-button-prev{
+    top: 22px !important;
+    right: 80px !important;
+    left: initial !important;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+.mySwiper .swiper-button-next:after, .mySwiper .swiper-button-prev:after{
+    font-size: 18px !important;
+    font-weight: 600;
+}
+.mySwiper .swiper-button-prev{
+    right: 220px !important;
+}
+.pagination-btn{
+    border: 1px solid lightgray;
+}
 .calc-width{
     width: calc(100% - 150px);
 }
+.xui-lg-w-fluid-83{
+    width: 83%;
+}
+.tool{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mobile-flex{
+    display: inline-flex;
+}
+.flip-card {
+    perspective: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: .8s ease;
+    height: 300px;
+}
+ 
+.flip-card.flipped {
+    transform: rotateY(180deg);
+}
+ 
+.flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+ 
+.flip-card-front,
+.flip-card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.flip-card-back {
+    transform: rotateY(180deg);
+}
 @media screen and (max-width: 768px) {
     .calc-width{
+        width: 100%;
+    }
+    .mobile-flex{
+        display: flex;
+    }
+    .xui-w-fluid-83{
         width: 100%;
     }
 }

@@ -9,12 +9,12 @@ const Services = () => {
         {
           question: <><div className="xui-d-inline-flex xui-flex-ai-center"><span><DotMark size={19.8} /></span> <p className="xui-ml-1">Blended Learning Solutions</p></div></>,
           heading: `Integrating traditional and digital learning methods for an enriched educational experience.`,
-          paragraph: 'Integrating traditional and digital learning methods creates a more enriched educational experience, leveraging the strengths of both approaches to meet diverse student needs and prepare them for a dynamic future.',
+          paragraph: 'This helps in leveraging the strengths of both approaches to meet diverse student needs and prepare them for a dynamic future.',
           image: ServiceImage1,
         },
         {
-          question: <><div className="xui-d-inline-flex xui-flex-ai-center"><span><DotMark size={19.8} /></span> <p className="xui-ml-1">Custom eLearning Solutions</p></div></>,
-          heading: `Designing bespoke eLearning programs that align with your specific requirements.`,
+          question: <><div className="xui-d-inline-flex xui-flex-ai-center"><span><DotMark size={19.8} /></span> <p className="xui-ml-1">Custom e-learning Solutions</p></div></>,
+          heading: `Designing bespoke e-learning programs that align with your specific requirements.`,
           paragraph: `In today's rapidly evolving educational landscape, the integration of traditional and digital learning methods is emerging as a powerful strategy for creating a more enriched and dynamic educational experience. This blended approach leverages the strengths of both modalities, offering a comprehensive learning environment that meets the diverse needs of students and educators alike.`,
           image: ServiceImage1,
         },
@@ -32,8 +32,8 @@ const Services = () => {
         },
         {
           question: <><div className="xui-d-inline-flex xui-flex-ai-center"><span><DotMark size={19.8} /></span> <p className="xui-ml-1">E-Learning to Slide Conversion</p></div></>,
-          heading: `Transforming eLearning content into engaging and informative slides.`,
-          paragraph: `Transforming eLearning content into engaging and informative slides represents a pivotal step towards enhancing educational experiences in today’s digital age. This process integrates traditional pedagogical principles with contemporary technological advancements, aiming to foster deeper engagement, comprehension, and retention among learners.`,
+          heading: `Transforming e-learning content into engaging and informative slides.`,
+          paragraph: `Transforming e-learning content into engaging and informative slides represents a pivotal step towards enhancing educational experiences in today’s digital age. This process integrates traditional pedagogical principles with contemporary technological advancements, aiming to foster deeper engagement, comprehension, and retention among learners.`,
           image: ServiceImage1,
         },
         {
