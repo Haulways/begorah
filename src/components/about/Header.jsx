@@ -15,11 +15,11 @@ export default function Header(){
                                 <h3 className="xui-font-sz-150 bold-font xui-font-w-bold"><CountUp start={0} end={4} duration={2} />y+</h3>
                                 <p className="xui-font-sz-85 xui-mt-half xui-opacity-6">In Edu-Tech industry</p>
                             </div>
-                            <div className="stat xui-px-1-half">
+                            <div className="stat xui-lg-px-1-half xui-pl-none xui-pr-1-half">
                                 <h3 className="xui-font-sz-150 bold-font xui-font-w-bold"><CountUp start={0} end={30} duration={2} />+</h3>
                                 <p className="xui-font-sz-85 xui-mt-half xui-opacity-6">School collaboration</p>
                             </div>
-                            <div className="stat xui-px-1-half">
+                            <div className="stat xui-lg-px-1-half xui-pl-none xui-pr-1-half">
                                 <h3 className="xui-font-sz-150 bold-font xui-font-w-bold"><CountUp start={0} end={100} duration={2} />+</h3>
                                 <p className="xui-font-sz-85 xui-mt-half xui-opacity-6">Educators</p>
                             </div>
