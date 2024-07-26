@@ -10,6 +10,7 @@ import Tool8 from "../../assets/images/tool8.png";
 import Tool9 from "../../assets/images/tool9.png";
 import Tool10 from "../../assets/images/tool10.png";
 import Tool11 from "../../assets/images/tool11.png";
+import Tool12 from "../../assets/images/tool12.png";
 import { Link } from 'react-router-dom';
 
 export default function RecentCourses() {
@@ -35,60 +36,65 @@ export default function RecentCourses() {
         <h3 className='xui-font-sz-180 bold-font'>E-Learning Authoring tools for Content Creation</h3>
         <p className="xui-font-sz-90 xui-opacity-8 xui-line-height-1-half xui-mt-1">Authoring tools are software applications used to create, design, and develop online content.</p>
         <p className="xui-font-sz-90 xui-opacity-8 xui-line-height-1-half xui-mt-1">Our Custom e-learning development services are powered by a range of cutting-edge technologies of tools, enabling us to create engaging and effective training programs while ensuring the delivery of high quality e-learning courses.</p>
-        <div className='xui-d-grid xui-lg-grid-col-4 xui-grid-col-1 xui-grid-gap-1 xui-mt-1-half'>
+        <div className='xui-d-grid xui-lg-grid-col-3 xui-grid-col-1 xui-grid-gap-1 xui-mt-1-half'>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.articulate.com/360/storyline/" target="_blank">
-              <img src={Tool1} className="xui-img-300 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool1} className="xui-w-fluid-100 xui-h-350 xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.articulate.com/360/rise/" target="_blank">
-              <img src={Tool2} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool2} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.adobe.com/ng/products/captivate.html" target="_blank">
-              <img src={Tool3} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool3} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.adobe.com/ng/products/photoshop/landpa.html?gclid=CjwKCAjwko21BhAPEiwAwfaQCJCEwctJbBLtB5if3oreA0FTf4Xqqfd-Qgfz5f_gtZKGEBDarVfrrRoCy58QAvD_BwE&mv=search&mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=CjwKCAjwko21BhAPEiwAwfaQCJCEwctJbBLtB5if3oreA0FTf4Xqqfd-Qgfz5f_gtZKGEBDarVfrrRoCy58QAvD_BwE:G:s&s_kwcid=AL!3085!3!602604000938!e!!g!!adobe%20photoshop!12704499767!119837632319&gad_source=1" target="_blank">
-              <img src={Tool4} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool4} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.lectoraonline.com/" target="_blank">
-              <img src={Tool5} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool5} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.adobe.com/ng/products/premiere/campaign/pricing.html?gclid=CjwKCAjwko21BhAPEiwAwfaQCE4fa1wkich-ssSkjDFMCrqvcb9AQ-AMn6R2XzzHlI0cmy6TZZtGqhoCwDQQAvD_BwE&mv=search&mv=search&mv2=paidsearch&sdid=G4FRYP7G&ef_id=CjwKCAjwko21BhAPEiwAwfaQCE4fa1wkich-ssSkjDFMCrqvcb9AQ-AMn6R2XzzHlI0cmy6TZZtGqhoCwDQQAvD_BwE:G:s&s_kwcid=AL!3085!3!602604107894!e!!g!!adobe%20premiere%20pro!12704500265!120002443865&gad_source=1" target="_blank">
-              <img src={Tool6} className="xui-img-300 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool6} className="xui-w-fluid-100 xui-h-350 xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.chameleoncreator.com/" target="_blank">
-              <img src={Tool7} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool7} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.techsmith.com/camtasia/" target="_blank">
-              <img src={Tool8} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool8} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.elucidat.com/" target="_blank">
-              <img src={Tool9} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool9} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.ispringsolutions.com/ispring-suite" target="_blank">
-              <img src={Tool10} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool10} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
           <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
             <Link className='xui-d-block' to="https://www.vyond.com/" target="_blank">
-              <img src={Tool11} className="xui-w-fluid-100 xui-h-250 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+              <img src={Tool11} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
+            </Link>
+          </div>
+          <div className='tool xui-p-half xui-bg-white xui-bdr-fade xui-bdr-style-solid xui-bdr-w-1'>
+            <Link className='xui-d-block' to="https://www.office.com/" target="_blank">
+              <img src={Tool12} className="xui-w-fluid-100 xui-h-350 xui-mx-auto xui-object-fit-fill xui-object-pos-center" />
             </Link>
           </div>
         </div>
