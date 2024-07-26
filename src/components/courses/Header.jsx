@@ -40,7 +40,7 @@ export default function Header() {
                         </div>
                     </div>
                     <div className="xui-bg-white xui-bdr-rad-2 xui-p-half xui-lg-w-fluid-15 xui-w-fluid-100 xui-lg-mt-none xui-mt-1">
-                        <button className="begorah-bg-blue xui-bdr-rad-2 xui-btn xui-px-3 xui-w-fluid-100">Contact</button>
+                        <button className="begorah-bg-blue xui-bdr-rad-2 xui-btn xui-px-3 xui-w-fluid-100">Send</button>
                     </div>
                 </form>
                 <p className="xui-font-sz-90 xui-opacity-8 xui-line-height-1-half xui-mt-1">Our e-learning solutions cater to a diverse range of industries, including but not limited to:</p>
