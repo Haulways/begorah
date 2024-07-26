@@ -44,7 +44,7 @@ const BlogSection = () => {
                     <h3 className='xui-font-sz-100 begorah-text-blue bold-font xui-font-w-500'>BLOGS AND NEWS</h3>
                     <h3 className='xui-font-sz-150 xui-mt-1 bold-font xui-font-w-500'>Our Latest Blogs</h3>
                 </div>
-                <LinkButton text="Read All Blogs" route="/" customClass="xui-btn-small xui-bdr-rad-half" />
+                {/* <LinkButton text="Read All Blogs" route="/" customClass="xui-btn-small xui-bdr-rad-half" /> */}
             </div>
             <div className='xui-mt-2 xui-row'>
                 <div className='xui-lg-col-4 xui-col-12'>
