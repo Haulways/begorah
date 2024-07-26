@@ -1,10 +1,17 @@
 import { Link,  } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
-import GrascopeLogo from "../assets/images/grascope-logo.png";
 import { Send } from "@carbon/icons-react";
 import { HashLink } from "react-router-hash-link";
+import { useRef } from "react";
 
 export default function Footer(){
+    const email = useRef(null);
+    const formData = {email: ""};
+    const onSubmitHandler = (event) => {
+        event.preventDefault();
+        formData.email = email.current.value;
+        window.open("mailto:mail@rsecng.co?subject="+ "&body=");
+    }
 
     return(
         <>
@@ -57,12 +64,12 @@ export default function Footer(){
 
                         </div>
                         <div className="xui-my-1">
-                            <form>
+                            <form onSubmit={onSubmitHandler}>
                                 <div className="xui-d-flex xui-flex-jc-space-between xui-w-fluid-100 xui-mt-1">
-                                    <input style={{"outline": "none", "border": "none","width": "calc(100% - 60px)"}} className="xui-pl-1 xui-bdr-rad-2 begorah-bg-blue xui-font-sz-90 xui-text-white" type="text" placeholder="Email address" />
-                                    <span className="xui-w-40 xui-h-40 xui-bdr-rad-circle xui-d-flex xui-flex-jc-center xui-flex-ai-center begorah-bg-blue">
+                                    <input ref={email} style={{"outline": "none", "border": "none","width": "calc(100% - 60px)"}} className="xui-px-1 xui-bdr-rad-2 begorah-bg-blue xui-font-sz-90 xui-text-white" type="text" placeholder="Email address" />
+                                    <button className="xui-w-40 xui-h-40 xui-bdr-rad-circle xui-d-flex xui-flex-jc-center xui-flex-ai-center begorah-bg-blue">
                                         <Send color='#FFF' />
-                                    </span>
+                                    </button>
                                 </div>
                             </form>
                         </div>

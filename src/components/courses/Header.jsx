@@ -1,29 +1,14 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import Asterics from "../../assets/images/asterics2.png";
 
 export default function Header() {
-    const emailRef = useRef(null);
-    const [errorMessage, setErrorMessage] = useState('');
-
+    const email = useRef(null);
+    const formData = {email: ""};
     const onSubmitHandler = (event) => {
         event.preventDefault();
-        const email = emailRef.current.value;
-        if (email) {
-            const subject = "No-reply: Thank you for contacting us";
-            const body = `Dear ${email},\n\nThank you for reaching out. We have received your email and will get back to you shortly.\n\nBest regards,\nYour Company`;
-            const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-            
-            // Attempt to open the mail client
-            const mailWindow = window.open(mailtoLink, '_blank');
-            
-            // If the mail client fails to open
-            if (!mailWindow || mailWindow.closed || typeof mailWindow.closed === 'undefined') {
-                setErrorMessage('It looks like you don’t have an email client configured. Please use a web-based email service or contact us directly at: mail@rsecng.co');
-            }
-        } else {
-            setErrorMessage('Please enter a valid email address.');
-        }
-    };
+        formData.email = email.current.value;
+        window.open("mailto:mail@rsecng.co?subject="+ "&body=");
+    }
 
     return (
         <section id="about" className="xui-pt-8 xui-pb-3-half xui-container begorah-bg-blue">
@@ -32,7 +17,7 @@ export default function Header() {
                 <h1 className="xui-lg-font-sz-200 xui-font-sz-150 xui-d-flex xui-flex-ai-center xui-mt-1-half xui-flex-jc-center bold-font xui-grid-gap-1-half">
                     <img className="xui-lg-img-30 xui-img-20" src={Asterics} alt="" /> Industries We Served <img className="xui-lg-img-30 xui-img-20" src={Asterics} alt="" />
                 </h1>
-                <div className="xui-d-flex xui-flex-jc-space-between xui-flex-ai-center xui-mt-1-half">
+                <form onSubmit={onSubmitHandler} className="xui-d-flex xui-flex-jc-space-between xui-flex-ai-center xui-mt-1-half">
                     <div className="xui-d-flex xui-bg-white xui-bdr-rad-3 xui-lg-w-fluid-83 xui-w-fluid-83">
                         <div style={{ "borderTopLeftRadius": "3rem", "borderBottomLeftRadius": "3rem" }} className="xui-w-75 xui-h-75 begorah-bg-blue-iii xui-d-flex xui-flex-jc-center xui-flex-ai-center">
                             <svg width="25" height="25" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,15 +35,14 @@ export default function Header() {
                                 </svg>
                             </div>
                             <div className="xui-pl-1" style={{ "width": "calc(100% - 50px)" }}>
-                                <input ref={emailRef} style={{ "outline": "none", "border": "none" }} className="xui-bdr-rad-3 xui-w-fluid-100 xui-h-fluid-100 xui-font-sz-90 xui-text-black" type="text" placeholder="Enter your email" />
+                                <input ref={email} style={{ "outline": "none", "border": "none" }} className="xui-bdr-rad-3 xui-w-fluid-100 xui-h-fluid-100 xui-font-sz-90 xui-text-black" type="text" placeholder="Enter your email" />
                             </div>
                         </div>
                     </div>
                     <div className="xui-bg-white xui-bdr-rad-2 xui-p-half xui-lg-w-fluid-15 xui-w-fluid-100 xui-lg-mt-none xui-mt-1">
-                        <button onClick={onSubmitHandler} className="begorah-bg-blue xui-bdr-rad-2 xui-btn xui-px-3 xui-w-fluid-100">Contact</button>
+                        <button className="begorah-bg-blue xui-bdr-rad-2 xui-btn xui-px-3 xui-w-fluid-100">Contact</button>
                     </div>
-                </div>
-                {errorMessage && <p className="xui-font-sz-90 xui-opacity-8 xui-line-height-1-half xui-mt-1" style={{ color: 'red' }}>{errorMessage}</p>}
+                </form>
                 <p className="xui-font-sz-90 xui-opacity-8 xui-line-height-1-half xui-mt-1">Our e-learning solutions cater to a diverse range of industries, including but not limited to:</p>
             </div>
         </section>

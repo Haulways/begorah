@@ -52,7 +52,7 @@ const Navbar = () => {
                     <ul>
                         <li>
                             {/* <LinkButton text="Sign up" route="/" customClass="contact xui-bg-none xui-bdr-rad-3" customStyle={{"backgroundColor": "#FFF", "color": "#000"}} /> */}
-                            <LinkButton text="Contact us" route="/" customClass="contact xui-bdr-rad-3 xui-ml-1" />
+                            <LinkButton text="Contact us" route="/#contact" isHash={true} customClass="contact xui-bdr-rad-3 xui-ml-1" />
                         </li>
                     </ul>
                 </div>
