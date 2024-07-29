@@ -55,9 +55,9 @@ export default function CourseCategories(){
     return(
         <>
             <section id="about" className="xui-pt-3 xui-pb-3-half">
-                <CourseScroller animateClass="animate1" text={text} speed={9000} />
-                <CourseScroller animateClass="animate2" text={text2} speed={9000} />
-                <CourseScroller animateClass="animate1" text={text3} speed={9000} />
+                <CourseScroller animateClass="animate1" text={text} speed={11000} />
+                <CourseScroller animateClass="animate2" text={text2} speed={11000} />
+                <CourseScroller animateClass="animate1" text={text3} speed={11000} />
             </section>
 
     

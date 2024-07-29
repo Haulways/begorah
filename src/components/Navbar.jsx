@@ -1,25 +1,17 @@
 /* eslint-disable react/no-unknown-property */
+import { useRef } from 'react';
 import { NavLink } from 'react-router-dom';
 import Logo from "../assets/images/logo.svg";
 import LinkButton from './LinkButton';
 
 const Navbar = () => {
-    // const location = useLocation();
-    // const [navbarColor, setNavbarColor] = useState("transparent");
-
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //         if (window.scrollY >= 50) {
-    //             setNavbarColor("alternative-nav-color");
-                
-    //         } else {
-    //             setNavbarColor("transparent");
-    //         }
-    //     };
-
-    //     window.addEventListener("scroll", handleScroll);
-    //     return () => window.removeEventListener("scroll", handleScroll);
-    // });
+    const email = useRef(null);
+    const formData = {email: ""};
+    const onSubmitHandler = (event) => {
+        event.preventDefault();
+        formData.email = email.current.value;
+        window.open("mailto:Contact@begorah.co.uk?subject="+ "&body=");
+    }
     
     return (
         <>
@@ -48,11 +40,12 @@ const Navbar = () => {
                      
                     </ul>
                 </div>
-                <div className="fixed xui-lg-d-block xui-md-d-block xui-d-none">
+                <div className="fixed xui-lg-d-block xui-md-d-block xui-d-block">
                     <ul>
                         <li>
                             {/* <LinkButton text="Sign up" route="/" customClass="contact xui-bg-none xui-bdr-rad-3" customStyle={{"backgroundColor": "#FFF", "color": "#000"}} /> */}
-                            <LinkButton text="Contact us" route="/#contact" isHash={true} customClass="contact xui-bdr-rad-3 xui-ml-1" />
+                            {/* <LinkButton onClick={onSubmitHandler} text="Contact us" route="/#contact" isButton={true} customClass="contact xui-bdr-rad-3 xui-ml-1" /> */}
+                            <button onClick={onSubmitHandler} ref={email} className='contact xui-bdr-rad-3 xui-font-sz-90 xui-ml-1 begorah-bg-blue xui-text-white'>Contact Us</button>
                         </li>
                     </ul>
                 </div>

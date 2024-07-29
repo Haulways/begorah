@@ -7,7 +7,7 @@ export default function Header() {
     const onSubmitHandler = (event) => {
         event.preventDefault();
         formData.email = email.current.value;
-        window.open("mailto:mail@rsecng.co?subject="+ "&body=");
+        window.open("mailto:Contact@begorah.co.uk?subject="+ "&body=");
     }
 
     return (
@@ -34,8 +34,8 @@ export default function Header() {
                                     <path d="M19.8218 19.8217L26.2501 26.25" stroke="#737373" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" />
                                 </svg>
                             </div>
-                            <div className="xui-pl-1" style={{ "width": "calc(100% - 50px)" }}>
-                                <input ref={email} style={{ "outline": "none", "border": "none" }} className="xui-bdr-rad-3 xui-w-fluid-100 xui-h-fluid-100 xui-font-sz-90 xui-text-black" type="text" placeholder="Enter your email" />
+                            <div style={{ "width": "calc(100% - 50px)" }}>
+                                <input ref={email} style={{ "outline": "none", "border": "none" }} className="xui-bdr-rad-3 xui-w-fluid-100 xui-h-fluid-100 xui-font-sz-90 xui-text-black xui-px-1" type="text" placeholder="Enter your email" />
                             </div>
                         </div>
                     </div>

@@ -8,7 +8,7 @@ const Section5 = () => {
     const onSubmitHandler = (event) => {
         event.preventDefault();
         formData.email = email.current.value;
-        window.open("mailto:mail@rsecng.co?subject="+ "&body=");
+        window.open("mailto:Contact@begorah.co.uk?subject="+ "&body=");
     }
     return (
         <section className="xui-pt-5 xui-pb-2 xui-container" id='contact'>
@@ -19,7 +19,7 @@ const Section5 = () => {
                     <form onSubmit={onSubmitHandler}>
                         <div className="xui-d-flex xui-flex-jc-space-between xui-flex-ai-center xui-max-w-400 xui-w-fluid-100 xui-ml-auto xui-mt-7 xui-p-1 xui-pos-relative xui-bg-white xui-bdr-rad-1-half">
                             <input ref={email} style={{"outline": "none", "border": "none", "background": "none"}} className="xui-pl-1 xui-font-sz-90" type="text" placeholder="Your email address" />
-                            <LinkButton text="Join now" isButton={true} customClass="xui-btn-small xui-bdr-rad-1 xui-pos-absolute" customStyle={{"right": "10px"}} />
+                            <LinkButton text="Contact Us" isButton={true} customClass="xui-btn-small xui-bdr-rad-1 xui-pos-absolute" customStyle={{"right": "10px"}} />
                         </div>
                     </form>
                 </div>
