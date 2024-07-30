@@ -10,7 +10,7 @@ export default function About(){
           <Header />
           <Section2 />
           <Section3 />
-          <Section4 />
+          {/* <Section4 /> */}
           <BlogSection />
         </>
     )
