@@ -24,7 +24,7 @@ export default function CourseCategories(){
             students: "View tools"
         },
         {
-            heading: "Manfufacturing and Engineering",
+            heading: "Manufacturing and Engineering",
             students: "View tools"
         },
         {
