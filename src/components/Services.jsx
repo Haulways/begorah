@@ -47,13 +47,7 @@ const Services = () => {
           heading: `Providing accurate and efficient exam marking solutions.`,
           paragraph: `Integrating traditional and digital learning methods represents a pivotal evolution in education, offering a multifaceted approach that enriches the overall educational experience. This integration bridges the gap between conventional classroom settings and the dynamic possibilities afforded by digital technologies, aiming to harness the strengths of both paradigms for optimal learning outcomes.`,
           image: ServiceImage6,
-        },
-        {
-          question: <><div className="xui-d-inline-flex xui-flex-ai-center"><span><DotMark size={19.8} /></span> <p className="xui-ml-1">Pharmaceutical Research Specialist</p></div></>,
-          heading: `Offering expertise in pharmaceutical research to enhance educational content.`,
-          paragraph: `Integrating traditional and digital learning methods represents a pivotal advancement in modern education, particularly in fields like pharmaceutical research where knowledge dissemination and application are critical. This integration not only enhances the educational experience but also augments the practical application of theoretical knowledge in real-world scenarios.`,
-          image: ServiceImage7,
-        },
+        }
 
     ];
 

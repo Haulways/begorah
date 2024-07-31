@@ -46,6 +46,10 @@ export default function CourseCategories(){
         {
             heading: "Financial Services",
             students: "View tools"
+        },
+        {
+            heading: "pharmaceutical industry",
+            students: "View tools"
         }
         
       ].map((txt) => ({
