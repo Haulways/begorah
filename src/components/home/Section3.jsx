@@ -23,9 +23,9 @@ export default function Section3(){
                         <img src={Section3Image2} className="xui-w-fluid-100 xui-max-h-400 xui-h-fluid-100 xui-bdr-rad-half" alt="" />
                     </div>
                     <div className="xui-bdr-rad-half xui-lg-mt-none xui-mt-1 xui-lg-col-4 xui-col-12 xui-d-flex xui-flex-dir-column xui-flex-jc-space-between begorah-bg-blue xui-text-white xui-pt-1 xui-px-1 xui-pb-2">
-                        <p className="xui-font-sz-120 xui-mt-1 xui-font-w-500">Mission Statement</p>
+                        <p className="xui-font-sz-120 xui-mt-1 xui-font-w-500">Vision Statement</p>
                         <div className="xui-mt-9">
-                            <p className='xui-font-sz-90 xui-opacity-8 xui-line-height-1-half'>We are dedicated to excellence in designing educational and industry content, promoting growth and success through innovative, accessible, and impactful e-learning solutions.</p>
+                            <p className='xui-font-sz-90 xui-opacity-8 xui-line-height-1-half'>To be the global leader in e-learning innovation, setting the standard for quality, accessibility and effectiveness in digital education, aimed at transforming the educational landscape.</p>
                         </div>
                     </div>
                 </div>
