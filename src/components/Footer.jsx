@@ -54,7 +54,7 @@ export default function Footer(){
                         <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Explore</p>
                         <div className="xui-my-1">
                             <Link to='/privacy/policy' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8">Privacy Policy</Link>
-                            <Link to='/portfolio' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8 xui-mt-1">Our Portfolio</Link>
+                            <Link to='/tools' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8 xui-mt-1">Our Tools</Link>
                         </div>
                     </div>
                     <div>

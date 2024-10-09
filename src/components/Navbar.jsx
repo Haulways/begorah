@@ -35,7 +35,7 @@ const Navbar = () => {
                             <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 bold-font-2 begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"industries"}>Industries</NavLink>
                         </li>
                         <li>
-                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 bold-font-2 begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"portfolio"}>Portfolio</NavLink>
+                            <NavLink className={({ isActive }) => isActive ? 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 bold-font-2 begorah-text-blue' : 'xui-font-sz-150 nav-links xui-md-font-sz-200 xui-lg-font-sz-100 xui-font-w-bold xui-text-black'} to={"tools"}>Tools</NavLink>
                         </li>
                      
                     </ul>

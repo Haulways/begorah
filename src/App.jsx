@@ -30,7 +30,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/industries' element={<Courses />} />
           <Route path='/privacy/policy' element={<PrivacyPolicy />} />
-          <Route path='/portfolio' element={<Portfolio />} />
+          <Route path='/tools' element={<Portfolio />} />
           <Route path='*' element={<h1>No Match</h1>} />
         </Routes>
       </Suspense>
