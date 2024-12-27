@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@carbon/icons-react": "^11.45.0",
+    "iconsax-react": "^0.0.8",
     "react": "^18.3.1",
     "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
@@ -18,6 +19,7 @@
     "react-hook-form": "^7.52.1",
     "react-router-dom": "^6.24.1",
     "react-router-hash-link": "^2.4.3",
+    "react-ts-typewriter": "^0.1.8-b",
     "swiper": "^11.1.5"
   },
   "devDependencies": {

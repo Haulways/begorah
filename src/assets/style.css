@@ -19,9 +19,13 @@
     --dark-blue: #0A0F50;
     --light-blue: #ECECEC;;
     --light-blue-ii: #F7F8FA;
+    --grey-color: #575757;
 }
 .begorah-bg-blue{
     background-color: var(--blue);
+}
+.begorah-border-grey{
+    border: 1px solid var(--grey-color);
 }
 .begorah-dark-blue{
     background-color: var(--dark-blue);
@@ -159,7 +163,49 @@ ul{
     backdrop-filter: blur(2rem);
   }
   
-  
+  .portfolio-sidebar {
+    width: 400px;
+    position: sticky;
+    top: var(--navbarHeight);
+    left: 10px;
+  }
+  .portfolio-main-screen {
+    width: calc(100% - 400px);
+    height: 100%;
+    overflow-y: auto;
+}
+.portfolio-circular-text text {
+    font-size: 15px;
+    font-weight: bold;
+}
+.portfolio-circle {
+    top: 10px;
+    position: relative;
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+    animation-duration: 3s;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transition: .4s ease;
+}  
+.portfolio-circle:hover{
+    border: 1px solid var(--blue);
+}
+@keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0);
+    }
+}
+.arrow-down{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
  
   .hsd-loader-screen {
     width: 100%;
@@ -322,6 +368,10 @@ ul{
     transform: rotateY(180deg);
 }
 @media screen and (max-width: 768px) {
+    .portfolio-sidebar, .portfolio-main-screen {
+        position: static;
+        width: 100%;
+    }
     .calc-width{
         width: 100%;
     }
