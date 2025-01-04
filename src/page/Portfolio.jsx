@@ -5,26 +5,18 @@ import Typewriter from 'react-ts-typewriter';
 import Profile from "../assets/images/section4-image5.png";
 import PT1 from "../assets/images/pt1.png";
 import Logo from "../assets/images/logo.svg";
-import Spec1 from "../assets/images/spec1.png";
-import Spec2 from "../assets/images/spec2.png";
-import Spec3 from "../assets/images/spec3.png";
-import Spec4 from "../assets/images/spec4.png";
-import Spec5 from "../assets/images/spec5.png";
-import Spec6 from "../assets/images/spec6.png";
-import Spec7 from "../assets/images/spec7.png";
-import Spec8 from "../assets/images/spec8.png";
 import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     const specializations = [
-    {"image": Spec1, "text": 'The layout must be intuitive, guiding students through course materials, assignments, and discussions. We can achieve this by clearly structuring modules and ensuring that all content is easily accessible.'},
-    {"image": Spec2, "text": 'Canvas provides features like announcements and messaging to keep students informed. These tools should be utilized to share important updates and engage students with course material'},
-    {"image": Spec3, "text": 'Canvas offers discussion boards, quizzes, and multimedia support. These tools can be used to create interactive content and foster student engagement. For example, using video content and quizzes within modules can enhance learning outcomes and keep students engaged.'},
-    {"image": Spec4, "text": 'With a diverse student body, including international students, the course must be inclusive and flexible. Canvas supports features such as accessibility tools, subtitles, and extra time for assessments, all of which can help students from varied backgrounds succeed.'},
-    {"image": Spec5, "text": 'From the student feedback, there is a clear concern about course materials being presented at an overwhelming pace. To address this, I would recommend a more gradual progression from basic to advanced concepts in the modules, allowing students to build confidence before tackling more complex ideas. We can use Canvas’s modular structure to pace content delivery effectively.'},
-    {"image": Spec6, "text": 'Another theme raised in the feedback was the need for better pastoral support and clarity on marking criteria. For the online course, I would suggest creating a dedicated space in Canvas for student wellbeing resources, which could include links to support services, workshops on stress management, and clear guidelines for academic integrity.'},
-    {"image": Spec7, "text": 'Before meeting with the academic team, I would review the program outline and student feedback to gather insights. I’d prepare a list of priorities, focusing on clarity of communication, the use of multimedia, and ensuring that the course offers both challenge and support. To develop these course spaces, I would propose running workshops with the academic team to collaboratively design the course structure. This would include mapping out the content delivery, ensuring an appropriate balance between theory and practical application. And finally, I would suggest setting up regular feedback loops with the program team during development. This would ensure the course evolves based on input from both faculty and students.'},
-    {"image": Spec8, "text": 'In conclusion, developing a flagship course in Canvas for the University of Manchester’s BSc in Global Development involves careful consideration of course structure, interactivity, and student engagement. By focusing on clarity, detailed feedback, and inclusive design, we can create an online space that supports student success, fosters interdisciplinary learning, and responds effectively to student feedback. I look forward to collaborating with the academic team to ensure the course meets the highest standards of pedagogical excellence. Thank you.'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031211/spec1_uar2ko.png', "text": 'The layout must be intuitive, guiding students through course materials, assignments, and discussions. We can achieve this by clearly structuring modules and ensuring that all content is easily accessible.'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031360/spec2_zli0ev.png', "text": 'Canvas provides features like announcements and messaging to keep students informed. These tools should be utilized to share important updates and engage students with course material'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031424/spec3_q2hjhx.png', "text": 'Canvas offers discussion boards, quizzes, and multimedia support. These tools can be used to create interactive content and foster student engagement. For example, using video content and quizzes within modules can enhance learning outcomes and keep students engaged.'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031485/spec4_chdopc.png', "text": 'With a diverse student body, including international students, the course must be inclusive and flexible. Canvas supports features such as accessibility tools, subtitles, and extra time for assessments, all of which can help students from varied backgrounds succeed.'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031580/spec5_dkdazj.png', "text": 'From the student feedback, there is a clear concern about course materials being presented at an overwhelming pace. To address this, I would recommend a more gradual progression from basic to advanced concepts in the modules, allowing students to build confidence before tackling more complex ideas. We can use Canvas’s modular structure to pace content delivery effectively.'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031629/spec6_tev9we.png', "text": 'Another theme raised in the feedback was the need for better pastoral support and clarity on marking criteria. For the online course, I would suggest creating a dedicated space in Canvas for student wellbeing resources, which could include links to support services, workshops on stress management, and clear guidelines for academic integrity.'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031655/spec7_hybog2.png', "text": 'Before meeting with the academic team, I would review the program outline and student feedback to gather insights. I’d prepare a list of priorities, focusing on clarity of communication, the use of multimedia, and ensuring that the course offers both challenge and support. To develop these course spaces, I would propose running workshops with the academic team to collaboratively design the course structure. This would include mapping out the content delivery, ensuring an appropriate balance between theory and practical application. And finally, I would suggest setting up regular feedback loops with the program team during development. This would ensure the course evolves based on input from both faculty and students.'},
+    {"image": 'https://res.cloudinary.com/dgynhlovo/image/upload/v1736031680/spec8_s7fx96.png', "text": 'In conclusion, developing a flagship course in Canvas for the University of Manchester’s BSc in Global Development involves careful consideration of course structure, interactivity, and student engagement. By focusing on clarity, detailed feedback, and inclusive design, we can create an online space that supports student success, fosters interdisciplinary learning, and responds effectively to student feedback. I look forward to collaborating with the academic team to ensure the course meets the highest standards of pedagogical excellence. Thank you.'},
     ]
     return (
         <section className='xui-d-flex xui-lg-flex-dir-row xui-flex-dir-column xui-container'>
@@ -43,7 +35,7 @@ const Portfolio = () => {
                     {/* <div className="xui-lg-font-sz-300 xui-font-sz-200 xui-font-w-normal xui-letter-spacing-2 xui-lg-w-fluid-90 xui-w-fluid-100 bold-font">
                         <Typewriter text='Designing a Flagship Canvas Course for BSc in Global Development' speed={30} cursor={false}/>
                     </div> */}
-                    <div className='xui-bg-sz-cover xui-bg-pos-center xui-h-350 xui-bdr-rad-1' style={{backgroundImage: `url('${PT1}')`}}>
+                    <div className='xui-bg-sz-cover xui-bg-pos-center xui-h-350 xui-bdr-rad-1' style={{backgroundImage: `url(https://res.cloudinary.com/dgynhlovo/image/upload/v1736030994/pt1_azhoiq.png)`}}>
 
                     </div>
                     {/* <h1>{typedText}</h1> */}
