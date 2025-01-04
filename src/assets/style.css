@@ -24,6 +24,12 @@
 .begorah-bg-blue{
     background-color: var(--blue);
 }
+.begorah-color-blue{
+    color: var(--blue);
+}
+.begorah-bdr-blue{
+    border: 1px solid var(--blue);
+}
 .begorah-border-grey{
     border: 1px solid var(--grey-color);
 }
