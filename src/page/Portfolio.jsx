@@ -3,7 +3,6 @@ import React from 'react';
 import CircleSpinner from '../components/CircleSpinner';
 import Typewriter from 'react-ts-typewriter';
 import Profile from "../assets/images/section4-image5.png";
-import PT1 from "../assets/images/pt1.png";
 import Logo from "../assets/images/logo.svg";
 import { Link } from 'react-router-dom';
 
