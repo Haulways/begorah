@@ -20,7 +20,7 @@ export default function CircleSpinner(){
             </defs>
             <text>
                 <textPath style={{"fill": "#000"}} className="xui-opacity-6 xui-font-w-normal" href="#circle">
-                My Gallery &nbsp; &nbsp; &nbsp; My Gallery
+                My Presentation &nbsp; &nbsp; &nbsp; 
                 </textPath>
             </text>
             </svg>
