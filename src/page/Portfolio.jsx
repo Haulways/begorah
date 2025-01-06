@@ -1,5 +1,5 @@
 import React from 'react';
-import CircleSpinner from '../components/CircleSpinner';
+// import CircleSpinner from '../components/CircleSpinner';
 import Typewriter from 'react-ts-typewriter';
 import { Link } from 'react-router-dom';
 
@@ -20,15 +20,11 @@ const Portfolio = () => {
                 <div className="xui-lg-font-sz-350 xui-font-sz-300 xui-font-w-normal xui-letter-spacing-2 xui-lg-w-fluid-50 xui-w-fluid-100 bold-font xui-mx-auto">
                     <Typewriter text='Welcome to my portfolio' speed={30} cursor={false}/>
                 </div>
-                <p className="xui-opacity-6 xui-font-sz-100 xui-line-height-2 xui-mt-1">Hello, and welcome. My name is Deborah Ogbeni, and today I'll be walking you through the development of an online flagship course space for the University of Manchester's BSc in Global Development, designed to ensure pedagogical excellence and provide the best student experience. In this presentation, I'll cover the key aspects of a flagship Canvas course, themes for improving the course based on student feedback, and a consultation approach for working with the academic team to develop these spaces.</p>
-                <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-center xui-grid-gap-1'>
-                    <Link to='mailto:Contact@begorah.co.uk' className='xui-text-dc-none xui-text-white xui-btn begorah-bg-blue xui-bdr-rad-2 xui-mt-1'>Reach Out</Link>
-                    <Link to='https://www.linkedin.com/company/begorah-ltd/' target='_blank' className='xui-text-dc-none begorah-color-blue xui-btn xui-bdr-rad-2 begorah-bdr-blue xui-mt-1'>Learn more</Link>
-                </div>
+                <p className="xui-opacity-6 xui-font-sz-100 xui-line-height-2 xui-mt-1">Flagship course design for a university</p>
             </section>
-            <div className="xui-d-flex xui-flex-jc-center">
+            {/* <div className="xui-d-flex xui-flex-jc-center">
                 <CircleSpinner />
-            </div>
+            </div> */}
             <section className='xui-container xui-py-half'>
                 <div className='xui-mt-2 xui-d-grid xui-lg-grid-col-2 xui-grid-col-1 xui-grid-gap-2' id='specializations'>
                     {specializations.map((specialization, index) => (
@@ -39,6 +35,10 @@ const Portfolio = () => {
 
                 </div>
             </section>
+            <div className='xui-d-flex xui-flex-ai-center xui-flex-jc-center xui-grid-gap-1'>
+                <Link to='mailto:Contact@begorah.co.uk' className='xui-text-dc-none xui-text-white xui-btn begorah-bg-blue xui-bdr-rad-2 xui-mt-1'>Reach Out</Link>
+                <Link to='https://www.linkedin.com/company/begorah-ltd/' target='_blank' className='xui-text-dc-none begorah-color-blue xui-btn xui-bdr-rad-2 begorah-bdr-blue xui-mt-1'>Learn more</Link>
+            </div>
             {/* <section className='xui-d-flex xui-lg-flex-dir-row xui-flex-dir-column xui-container'>
                 <div>
                     <div className='portfolio-sidebar xui-lg-mt-none xui-mt-7 xui-text-center xui-py-2 xui-px-3 begorah-border-grey xui-bdr-rad-1'>
