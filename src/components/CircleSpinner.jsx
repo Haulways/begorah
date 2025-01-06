@@ -5,7 +5,7 @@ import { HashLink } from "react-router-hash-link";
 export default function CircleSpinner(){
     return(
         <>
-        <HashLink smooth to="#specializations" className="xui-pos-relative">
+        <div className="xui-pos-relative">
             <div className="arrow-down">
                 <ArrowDown size="22" color="#000760"/>
             </div>
@@ -20,11 +20,11 @@ export default function CircleSpinner(){
             </defs>
             <text>
                 <textPath style={{"fill": "#000"}} className="xui-opacity-6 xui-font-w-normal" href="#circle">
-                View More &nbsp; &nbsp; &nbsp; View More
+                My Gallery &nbsp; &nbsp; &nbsp; My Gallery
                 </textPath>
             </text>
             </svg>
-        </HashLink>
+        </div>
         </>
     );
 }
