@@ -16,8 +16,8 @@ export default function Footer(){
     return(
         <>
             <section id="contact" className="xui-pt-3 xui-pb-5 xui-container begorah-bg-blue-iii xui-text-black footer">
-                <div className='xui-d-grid xui-lg-grid-col-4 xui-grid-col-1 xui-grid-col-1 xui-lg-grid-gap-1 xui-grid-gap-2 xui-mt-3'>
-                    <div>
+                <div className="xui-row">
+                    <div className="xui-lg-col-4 xui-col-12">
                         <img className="xui-img-120" src={Logo} alt="" />
                         <p className='xui-font-sz-90 xui-opacity-8 xui-mt-1 xui-line-height-1-half'>Begorah Ltd is a leading e-learning content design company dedicated to creating engaging, interactive, and effective online educational materials.</p>
                         <div className="xui-mt-1 xui-d-flex xui-flex-ai-center xui-grid-gap-1">
@@ -43,38 +43,49 @@ export default function Footer(){
                             </Link>
                         </div>
                     </div>
-                    <div>
-                        <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Quick Links</p>
-                        <div className="xui-my-1">
-                            <HashLink smooth to='/about/#about' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8">About us</HashLink>
-                            <HashLink smooth to='#contact' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8 xui-mt-1">Contact us</HashLink>
-                        </div>
-                    </div>
-                    <div>
-                        <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Explore</p>
-                        <div className="xui-my-1">
-                            <Link to='/privacy/policy' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8">Privacy Policy</Link>
-                            <Link to='/tools' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8 xui-mt-1">Our Tools</Link>
-                        </div>
-                    </div>
-                    <div>
-                        <div className="xui-d-flex xui-flex-ai-center">
-                            <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Newsletter</p>
-                            <p className='xui-font-sz-80 bold-font xui-font-w-600 begorah-text-blue xui-pl-2' style={{"width": "calc(100% - 110px)"}}><Link className="xui-text-black xui-text-dc-none" to='https://www.grascope.com' target="_blank">&copy; 2024 Powered by <span style={{"fontWeight": "600"}} className="bold-font">Grascope</span></Link></p>
-
-                        </div>
-                        <div className="xui-my-1">
-                            <form onSubmit={onSubmitHandler}>
-                                <div className="xui-d-flex xui-flex-jc-space-between xui-w-fluid-100 xui-mt-1">
-                                    <input ref={email} style={{"outline": "none", "border": "none","width": "calc(100% - 60px)"}} className="xui-px-1 xui-bdr-rad-2 begorah-bg-blue xui-font-sz-90 xui-text-white" type="text" placeholder="Email address" />
-                                    <button className="xui-w-40 xui-h-40 xui-bdr-rad-circle xui-d-flex xui-flex-jc-center xui-flex-ai-center begorah-bg-blue">
-                                        <Send color='#FFF' />
-                                    </button>
+                    <div className="xui-lg-col-8 xui-col-12 xui-pl-3">
+                        <div className="xui-row">
+                            <div className="xui-lg-col-6">
+                                <div className="xui-d-grid xui-lg-grid-col-2 xui-grid-col-1">
+                                    <div>
+                                        <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Quick Links</p>
+                                        <div className="xui-my-1">
+                                            <HashLink smooth to='/about/#about' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8">About us</HashLink>
+                                            <HashLink smooth to='#contact' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8 xui-mt-1">Contact us</HashLink>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Explore</p>
+                                        <div className="xui-my-1">
+                                            <Link to='/privacy/policy' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8">Privacy Policy</Link>
+                                            <Link to='/tools' className="xui-font-sz-90 xui-text-black xui-text-dc-none xui-d-block xui-opacity-8 xui-mt-1">Our Tools</Link>
+                                        </div>
+                                    </div>
                                 </div>
-                            </form>
+                            </div>
+                            <div className="xui-lg-col-6">
+                                <div>
+                                    <div className="xui-d-flex xui-flex-ai-center xui-flex-jc-space-between">
+                                        <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Newsletter</p>
+                                        <p className='xui-font-sz-80 bold-font xui-font-w-600 begorah-text-blue'>&copy; 2024 Powered by <Link to='https://www.grascope.com' target="_blank" style={{"fontWeight": "600"}} className="bold-font begorah-text-blue xui-text-dc-none">Grascope</Link></p>
+
+                                    </div>
+                                    <div className="xui-my-1">
+                                        <form onSubmit={onSubmitHandler}>
+                                            <div className="xui-d-flex xui-w-fluid-100 xui-mt-1">
+                                                <div className="xui-pr-1" style={{"width": "calc(100% - 40px)"}}>
+                                                    <input ref={email} style={{"outline": "none", "border": "none"}} className="xui-px-1 xui-bdr-rad-2 xui-w-fluid-100 xui-h-fluid-100 begorah-bg-blue xui-font-sz-90 xui-text-white" type="text" placeholder="Email address" />
+                                                </div>
+                                                <button className="xui-w-40 xui-h-40 xui-bdr-rad-circle xui-d-flex xui-flex-jc-center xui-flex-ai-center begorah-bg-blue">
+                                                    <Send color='#FFF' />
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    
                 </div>
                 <p className="xui-mt-2-half xui-font-sz-80 xui-text-center begorah-text-blue"><i>BEGORAH LTD - RC- UK 12756052</i></p>
             </section>
