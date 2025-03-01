@@ -43,7 +43,7 @@ export default function Footer(){
                             </Link>
                         </div>
                     </div>
-                    <div className="xui-lg-col-8 xui-col-12 xui-pl-3">
+                    <div className="xui-lg-col-8 xui-col-12 xui-lg-pl-3 xui-pl-none xui-lg-mt-none xui-mt-2">
                         <div className="xui-row">
                             <div className="xui-lg-col-6">
                                 <div className="xui-d-grid xui-lg-grid-col-2 xui-grid-col-1">
