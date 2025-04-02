@@ -29,7 +29,7 @@ const Tools = () => {
                     <img className='xui-img-150 xui-bdr-rad-1-half' src={Portfolio4} alt="" />
                 </div>
                 <div className='xui-mt-1-half xui-d-flex xui-flex-ai-center xui-flex-jc-center'>
-                    <LinkButton text="Learn More" route="https://www.linkedin.com/company/begorah-ltd/" customClass="xui-btn xui-px-3 xui-bdr-rad-half xui-mt-1" />
+                    <LinkButton text="Let's Connect" route="https://calendly.com/contact-begorah/30min" customClass="xui-btn xui-px-3 xui-bdr-rad-half xui-mt-1" />
                 </div>
             </div>
         </section>

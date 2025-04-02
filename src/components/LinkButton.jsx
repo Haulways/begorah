@@ -22,7 +22,7 @@ const LinkButton = (props) => {
     }
 
     return (
-        <Link to={route} style={customStyle} className={`begorah-bg-blue xui-text-white xui-lg-font-sz-85 xui-font-sz-70 ${customClass}`}>
+        <Link to={route} target='_blank' style={customStyle} className={`begorah-bg-blue xui-text-white xui-lg-font-sz-85 xui-font-sz-70 ${customClass}`}>
             {text}
         </Link>
     );

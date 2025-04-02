@@ -1,5 +1,6 @@
 import { Link,  } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
+import GrascopeLogo from "../assets/images/grascope-logo.png";
 import { Send } from "@carbon/icons-react";
 import { HashLink } from "react-router-hash-link";
 import { useRef } from "react";
@@ -19,7 +20,7 @@ export default function Footer(){
                 <div className="xui-row">
                     <div className="xui-lg-col-4 xui-col-12">
                         <img className="xui-img-120" src={Logo} alt="" />
-                        <p className='xui-font-sz-90 xui-opacity-8 xui-mt-1 xui-line-height-1-half'>Begorah Ltd is a leading e-learning content design company dedicated to creating engaging, interactive, and effective online educational materials.</p>
+                        <p className='xui-font-sz-90 xui-opacity-8 xui-mt-1 xui-line-height-1-half'>Begorah Ltd is a leading e-learning content design company dedicated to creating engaging, interactive, and effective online educational materials. email - <span className="begorah-text-blue bold-font">contact@begorah.co.uk</span></p>
                         <div className="xui-mt-1 xui-d-flex xui-flex-ai-center xui-grid-gap-1">
                             <Link to='https://x.com/BegorahLTD' target="_blank">
                                 <svg width="20" height="20" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -67,7 +68,6 @@ export default function Footer(){
                                 <div>
                                     <div className="xui-d-flex xui-flex-ai-center xui-flex-jc-space-between">
                                         <p className='xui-font-sz-100 bold-font xui-font-w-600 begorah-text-blue' style={{"fontWeight": "600"}}>Newsletter</p>
-                                        <p className='xui-font-sz-80 bold-font xui-font-w-600 begorah-text-blue'>&copy; 2024 Powered by <Link to='https://www.grascope.com' target="_blank" style={{"fontWeight": "600"}} className="bold-font begorah-text-blue xui-text-dc-none">Grascope</Link></p>
 
                                     </div>
                                     <div className="xui-my-1">
@@ -87,6 +87,7 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
+                <p className=' xui-lg-font-sz-90 xui-font-sz-85 xui-font-w-600 xui-d-flex xui-flex-ai-center xui-grid-gap-half xui-flex-dir-column xui-flex-jc-center begorah-text-blue '>FROM <Link className='xui-d-inline-block' to='https://www.grascope.com/' target='_blank'><img className='xui-img-70' src={GrascopeLogo} alt="" /></Link></p>
                 <p className="xui-mt-2-half xui-font-sz-80 xui-text-center begorah-text-blue"><i>BEGORAH LTD - RC- UK 12756052</i></p>
             </section>
     
